@@ -3,7 +3,7 @@
 # Recipe:: Chef-Client Cron & Delete Validation.pem 
 #
 #
-
+# knife ssh "name:*" "sudo chef-client"
 cron "clientrun" do
   minute '0'
   hour '*/1'
